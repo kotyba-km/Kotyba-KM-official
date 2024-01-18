@@ -1,0 +1,144 @@
+@media (max-width:1325px) {
+    .social-menu{
+        width: 35vw;
+    }
+}
+@media (max-width:1200px) {
+    .navy{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .social-menu{
+        width: 70vw;
+    }
+    .hero-section
+    {
+        width: 92vw;
+        height: 80vh;
+    }
+    .skill-window
+    {
+        width: 18vw;
+        height: 45vh;
+    }
+    .s1{
+        flex-direction: column;
+        height: 75%;
+    }
+    .hero-image-container{
+        border-radius: 30px;
+    } 
+}
+@media (max-width:935px)
+{
+    .pattern-wrapper {
+        display: none;
+    }
+    .skill-window
+    {
+        transform: none;
+        width: 60vw;
+    }
+    .skill-window:hover
+    {
+        width: 60vw;
+    }
+    .expand-btn
+    {
+      display: none;
+    }
+    .fancy-wrapper:hover > :not(:hover)
+    {
+        opacity: 0.5;
+        width: 60vw;
+    }
+    .fancy-wrapper
+    {
+        flex-direction: column;
+    }
+    .hero-section:nth-of-type(2)
+    {
+        height: fit-content;
+    }
+    .game {
+        width: 50%;
+    }
+    .game-link {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .games-net {
+        grid-template: 1fr 1fr 1fr /1fr;
+        justify-content: center;
+    }
+}
+@media (max-width:768px) {
+     .navy {
+        height: 8vh;
+        padding: 0px!important;
+    }
+     .navbar-item{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+}
+@media (max-width:600px)
+{
+    .s1 {
+        height: 90%;
+    }
+    .brandy img{
+        transform: scale(0.9);
+    }
+    .hero-section{
+        height: 40vh;
+    }
+    .hero-image-container{
+        transform: scale(80%);
+    }
+    .hero-container{
+        padding-left: 2.5vw;
+    }
+    .wrap{
+        display: none;
+    }
+    .game {
+        width: 60%;
+    }
+    .game-link {
+        width: 60%;
+    }
+}
+@media (max-width:450px) {
+    .social-menu{
+        width: 95vw;
+    } 
+    .game {
+        width: 75%;
+    }
+    .game-link {
+        width: 75%;
+    }
+}
+@media (max-width:300px) {
+    body {
+        width: 100%;
+    }
+    .navy {
+        width: 100%;
+    }
+    .hero-section {
+        width: 100%;
+    }
+    .game {
+        width: 85%;
+    }
+    .game-link {
+        width: 85%;
+    }
+}
+
